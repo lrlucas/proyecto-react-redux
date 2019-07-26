@@ -24,6 +24,9 @@ export default class Appbar extends React.Component {
     };
 
 
+    // Este componente no tiene mucha logica
+    // solo recibe el props que le pasamos y lo mostramos en el  appbar
+    // tambien esta configurado las rutas de la aplicacion
     render() {
         return (
             <div>

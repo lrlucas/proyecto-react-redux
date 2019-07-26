@@ -1,9 +1,10 @@
 import React, {Component} from 'react';
-import FormComponent from "./FormComponent";
+import FormComponent from "../Form/Form";
 
 class NewPost extends Component {
 
     createNewPost = (post) => {
+        console.log('NEW POST')
         console.log(post)
     };
 
